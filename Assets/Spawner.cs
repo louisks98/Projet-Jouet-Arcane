@@ -32,7 +32,7 @@ public class Spawner : MonoBehaviour
                 _capsuleNb++;
                 break;
         }
-        obj.AddComponent<CheckCollision>();
+        obj.AddComponent<ObjectActions>();
         var rb = obj.AddComponent<Rigidbody>();
         rb.useGravity = false;
         obj.transform.position = pos;

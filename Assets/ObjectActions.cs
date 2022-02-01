@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-public class CheckCollision : MonoBehaviour
+public class ObjectActions : MonoBehaviour
 {
     private Camera _camera;
     private float _z;
